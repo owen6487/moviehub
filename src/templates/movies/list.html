@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="list-header">
+    <h2>My Cinema Space</h2>
+    <p style="color: var(--text-muted); font-size: 1.05rem; margin-top: 0.5rem;">
+        Track your progress, manage your list of films, and revisit your favorites.
+    </p>
+    <a href="/movies/details/" class="button">view the details about cline track</a>
+</div>
+
+<div class="columns">
+   
+    <div class="column-container"> <div class="column-header">
+            <h3>Watchlist</h3>
+            <p>The list of the movies you want to watch.</p>
+        </div>
+        
+        <div class="column-list">
+            <img src="https://i.pinimg.com/736x/49/c3/55/49c35505be9e10b07f5e1a4792b45d34.jpg" alt="The Godfather Part II">
+            <div class="movie-details">
+                <p>The Godfather Part II (1972)</p>
+                <div class="rating-info">
+                     <span>8.9</span> 
+                </div>
+            </div>
+        </div>
+        
+        <div class="column-list">
+            <img src="https://i.pinimg.com/736x/5d/55/f6/5d55f69bbe7948d202dffbbea4b857d8.jpg" alt="The Dark Knight">
+            <div class="movie-details">
+                <p>The Dark Knight (2008)</p>
+                <div class="rating-info">
+                    </i> <span>9.0</span> 
+                </div>
+            </div>
+        </div>
+
+        <div class="column-list">
+            <img src="https://i.pinimg.com/736x/f4/8b/a6/f48ba6144975b581fb1945f0fb6d23e9.jpg" alt="Solo Leveling">
+            <div class="movie-details">
+                <p>Solo Leveling (2023)</p>
+                <div class="rating-info">
+                    </i> <span>8.6</span> 
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="watched-movies">
+        <div class="watched-movies-header">
+            <h2>Watched Movies</h2>
+            <p>The list of the movies you have watched.</p>
+        </div>
+
+        <div class="watched-movies-list">
+            <img src="https://i.pinimg.com/1200x/b9/e7/7c/b9e77c629f502b18110ed52aaf3bdd79.jpg" alt="The Originals">
+             <div class="movie-details">
+                <p>The Originals (2013)</p>
+                <div class="rating-info">
+                     <span>8.3</span> 
+                </div>
+            </div>
+        </div>    
+        
+        <div class="watched-movies-list">
+            <img src="https://i.pinimg.com/736x/16/ae/9e/16ae9ef1f8e8e6405d9b9508d1e3232d.jpg" alt="The 100">
+             <div class="movie-details">
+                <p>The 100 (2014)</p>
+                <div class="rating-info">
+                 <span>7.6</span> 
+                </div>
+            </div>
+        </div>
+    
+        <div class="watched-movies-list">
+            <img src="https://i.pinimg.com/1200x/3e/9a/10/3e9a1094d4ecb47318b3b2f976713683.jpg" alt="Blue Lock">
+             <div class="movie-details">
+                <p>Blue Lock (2022)</p>
+                <div class="rating-info">
+                    <span>8.4</span> 
+                </div>
+        </div>
+    </div>
+    </div>
+</div>
+{% endblock %}

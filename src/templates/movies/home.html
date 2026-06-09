@@ -1,0 +1,72 @@
+
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="header-style">
+    <h1>Track your favourite movies and TV shows.</h1>
+    <h2>Keep track of the movies and TV shows you want to watch and the ones you've already watched.</h2>
+    <a href="/movies/" class="button">Start Watching Now</a>
+</div>
+<div class="feature-header">
+    <h2>featured masterpieces</h2>
+    <p>Explore some of the best movies of all time.</p>
+</div>
+
+<div class="movie-grid">
+
+    <!--First movie card-->
+    <div class="movie-card">
+        <!--Image container-->
+        <div class="card-image">
+            <img src="https://i.pinimg.com/1200x/49/6f/6e/496f6efa846779411f4120b988894366.jpg" alt="The God Father">
+        </div>
+        <div class="card-info">
+            <span class="card-badge">8.9</span>
+            <div class="card-overlay">
+                <p>it is about a family saga of the gangesters</p>
+            </div>
+            <h3>The God Father</h3>
+            <p>1972 . Crime . Drama</p>
+        </div>
+    </div>
+    <!--Second movie card-->
+    <div class="movie-card">
+        <!--Image container-->
+        <div class="card-image">
+            <img src="https://i.pinimg.com/736x/5d/55/f6/5d55f69bbe7948d202dffbbea4b857d8.jpg" alt="The Dark Knight">
+        </div>
+        <div class="card-info">
+            <span class="card-badge">9.0</span>
+            <div class="card-overlay">
+                <p>it is about the new villain The Joker and the new hero Batman saving the city from him </p>
+            </div>
+            <h3>The Dark Knight</h3>
+            <p>2008 . Action . Crime . Drama</p>
+        </div>
+    </div>
+
+    <!--Third movie card-->
+    <div class="movie-card">
+        <!--Image container-->
+        <div class="card-image">
+            <img src="https://i.pinimg.com/736x/f4/8b/a6/f48ba6144975b581fb1945f0fb6d23e9.jpg" alt="solo leveling">
+        </div>
+        <div class="card-info">
+            <span class="card-badge">8.6</span>
+            <div class="card-overlay">
+                <p>it is anime about the weakest hunter who becomes the strongest</p>
+            </div>
+            <h3>Solo Leveling</h3>
+            <p>2023 . Action . fantasy</p>
+        </div>
+    </div>
+    
+    
+    
+
+</div>
+
+
+{% endblock %}

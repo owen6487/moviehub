@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>CineTrack - Your Ultimate Movie Tracker</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="/" class="logo">
+                CineTrack
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/" id="nav-home">Home</a></li>
+                    <li><a href="/movies/" id="nav-movies">All Movies</a></li>
+                    <li><a href="/movies/details/" id="nav-details">Details</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CineTrack. Built with passion for film enthusiasts.</p>
+            <p>Made with Django, HTML5 &amp; Vanilla CSS</p>
+        </div>
+    </footer>
+</body>
+</html>
